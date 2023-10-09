@@ -22,21 +22,21 @@ All these resources are created through Terraform Scripts
 
 **To achieve this we need to run these below commands:**
   * Be in the folder that has terraform scripts `.tf` files.
-`terraform init`
+
 ```
-`terraform init`
+terraform init
 ``` 
 ```
-`terraform validate`
+terraform validate
 ```
 ```
-`terraform fmt`
+terraform fmt
 ```
 ```
-`terraform plan`
+terraform plan
 ```
 ```
-`terraform apply`
+terraform apply
 ```
 
 ## Applying YAML Files
@@ -49,7 +49,7 @@ All these resources are created through Terraform Scripts
   * Be in the folder that has YAML scripts.
 
 ```
-`kubectl apply -f .`
+kubectl apply -f .
 ``` 
 
 
