@@ -6,7 +6,7 @@
 
 ## Resources used to create cluster
 * VPC
-* Private Subnets
+ * Private Subnets
 * Public Subnets 
 * Internet Gateway
 * NAT Gateway
