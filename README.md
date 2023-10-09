@@ -13,11 +13,11 @@ All these resources are created through Terraform Scripts
   * NAT Gateway
   * Security Groups
 * EKS
-  *EKS cluster
-    *Node Group
-      *Contains Two Nodes, These Nodes can scale as per the workload traffic
+  * EKS cluster
+    * Node Group
+      * Contains Two Nodes, These Nodes can scale as per the workload traffic
 * ELB(Elastic Load Balacer)
-  * We install load balancer controller
+  * We are installing AWS load balancer controller in the cluster
   * This Controller creates external/internal load balancer in AWS as per the configuration, and takes the incoming public traffic
 
 **To achieve this we need to run these below commands:**
