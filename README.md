@@ -22,7 +22,7 @@ All these resources are created through Terraform Scripts
 
 **To achieve this we need to run these below commands:**
   * Be in the folder that has terraform scripts `.tf` files.
-
+`terraform init`
 ```
 `terraform init`
 ``` 
