@@ -15,7 +15,7 @@ All these resources are created through Terraform Scripts
 * EKS
   * EKS cluster
     * Node Group
-      * Contains Two Nodes, These Nodes can scale as per the workload traffic
+      * Contains Two Nodes, These Nodes are part of Auto Scaling Group, they scale as per the workload traffic.
 * ELB(Elastic Load Balacer)
   * We are installing AWS load balancer controller in the cluster
   * This Controller creates external/internal load balancer in AWS as per the configuration, and takes the incoming public traffic
